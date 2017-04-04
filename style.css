@@ -1,20 +1,33 @@
 .site-content {
-	display: block;
-	float: left;
-	margin-left: 0%;
-	width: 100%;
+  display: block;
+  float: left;
+  margin-left: 0%;
+  width: 100%;
 }
 
 body:before {
-	background-color: transparent;
-	box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
-	content: "";
-	display: block;
-	height: 100%;
-	min-height: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 0%;
-	z-index: 0; /* Fixes flashing bug with scrolling on Safari */
+  background-color: transparent;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
+  content: "";
+  display: block;
+  height: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  z-index: 0; /* Fixes flashing bug with scrolling on Safari */
 }
+
+ul.contents_bar {
+    margin: 0;
+    overflow: hidden;
+    background-color: #FFF;
+    height: 66px;
+}
+
+ul.contents_bar li {
+  float: left;
+  padding: 19.25px 13.5px 20.25px;
+}
+
