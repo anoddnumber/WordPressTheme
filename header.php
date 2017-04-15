@@ -15,6 +15,8 @@
   <meta name="viewport" content="width=device-width">
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js" ></script>
+  <script type="text/javascript" src="wp-content/themes/twentyfifteen-child/js/default.js"></script>
   <!--[if lt IE 9]>
   <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
   <![endif]-->
@@ -23,7 +25,14 @@
 
 <body <?php body_class(); ?>>
   <ul class="contents_bar">
-    <li><a href="#sidr-left" class="sidr-left-link">Contents</a></li>
+    <li><a href="#sidr-left" class="sidr-left-link">
+      <div class="hamburger-menu">
+        <div class="bar"></div>	
+      </div>
+      <span>
+        Contents
+      </span>
+    </a></li>
   </ul>
 <div id="page" class="hfeed site">
   <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
