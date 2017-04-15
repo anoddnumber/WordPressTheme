@@ -39,18 +39,19 @@ a.sidr-left-link {
 
 /* Hamburger Menu Animation */
 :root {
-  --bar-width: 50px;
+  --bar-width: 30px;
   --bar-height: 3px;
-  --bar-spacing: 15px;
+  --bar-spacing: 8px;
 }
 
 
 .hamburger-menu {
   float: left;
-  margin: auto;
   width: var(--bar-width);
   height: var(--bar-height) + var(--bar-spacing)*2;
   cursor: pointer;
+  margin-top: 6px;
+  margin-right: 7px;
 }
 
 .bar,
