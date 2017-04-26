@@ -172,4 +172,5 @@ body {
 
 .navbar a {
   display: inline-block;
+  outline: none;
 }
