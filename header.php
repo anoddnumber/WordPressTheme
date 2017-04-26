@@ -24,7 +24,19 @@
 </head>
 
 <body <?php body_class(); ?>>
-  <ul class="contents_bar">
+  <nav class="navbar navbar-full nav-main" role="navigation">
+    <div class="row between-xs center-xs middle-xs bare">
+      <div class="col-xs-4 start-xs bare">
+        <a href="#" class="no-underline nav-trigger waves-effect" id="toc">
+          <div class="hamburger-menu">
+            <div class="bar"></div>	
+          </div>
+        <span class="nav-trigger_text show-sm-inline">Contents</span></a>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- <ul class="contents_bar">
     <li><a href="#sidr-left" class="sidr-left-link">
       <div class="hamburger-menu">
         <div class="bar"></div>	
@@ -33,7 +45,8 @@
         Contents
       </span>
     </a></li>
-  </ul>
+  </ul> -->
+
 <div id="page" class="hfeed site">
   <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
 
