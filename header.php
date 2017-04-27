@@ -27,7 +27,7 @@
   <nav class="navbar navbar-full nav-main" role="navigation">
     <div class="row between-xs center-xs middle-xs bare">
       <div class="col-xs-4 start-xs bare">
-        <a href="#" class="no-underline nav-trigger waves-effect" id="toc">
+        <a href="javscript:void(0);" class="no-underline nav-trigger waves-effect" id="toc">
           <div class="hamburger-menu">
             <div class="bar"></div>	
           </div>
