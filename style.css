@@ -118,7 +118,8 @@ a.sidr-left-link {
     margin-bottom: 0;
     border: none;
     min-height: inherit;
-    position: relative;
+    position: fixed;
+    width: 100%;
     display: block;
     height: 67px;
     z-index: 500;
