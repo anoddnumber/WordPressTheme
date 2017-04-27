@@ -121,6 +121,7 @@ a.sidr-left-link {
     position: relative;
     display: block;
     height: 67px;
+    z-index: 500;
 }
 .nav-main {
     background-color: #fff;
@@ -171,6 +172,54 @@ body {
 }
 
 .navbar a {
-  display: inline-block;
-  outline: none;
+  display: inline-block; /* Make the a element have a height and width */
+  outline: none; /* Make the a element not have an outline after selecting it */
+}
+
+.wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    position: relative;
+    overflow: hidden;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.sidebar {
+    all: unset; /* Get rid of twentyfifteen's CSS for the sidebar class */
+    width: 270px;
+    height: 200vh;
+    position: absolute;
+    z-index: 120;
+    top: 0;
+    right: 100%;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    transition: all .2s ease-out;
+    background: #fff
+}
+
+.sidebar--fixed {
+    position: fixed;
+    overflow-y: scroll;
+    height: 100vh
+}
+
+.sidebar--fixed .side-nav-container {
+    padding-top: 6.65rem
+}
+
+.wrapper[class*=is-open] .sidebar {
+    -webkit-transform: translate(270px, 0);
+    -ms-transform: translate(270px, 0);
+    transform: translate(270px, 0);
+    transition: -webkit-transform .25s ease-out;
+    transition: transform .25s ease-out;
+    transition: transform .25s ease-out, -webkit-transform .25s ease-out
 }
