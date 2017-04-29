@@ -203,17 +203,14 @@ body {
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
     transition: all .2s ease-out;
-    background: #fff
+    background: #fff;
+    margin-top: 9.65rem;
 }
 
 .sidebar--fixed {
     position: fixed;
     overflow-y: scroll;
     height: 100vh
-}
-
-.sidebar--fixed .side-nav-container {
-    padding-top: 9.65rem
 }
 
 .wrapper[class*=is-open] .sidebar {
