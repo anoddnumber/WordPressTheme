@@ -37,6 +37,7 @@
   </nav>
   <div class="wrapper">
     <aside class="sidebar sidebar-left sidebar--fixed" role="complementary">
+      <!-- This is where the sidebar widget area is added -->
       <?php if( dynamic_sidebar('sidebar_id') ) : else : endif; ?>
     </aside>
   
