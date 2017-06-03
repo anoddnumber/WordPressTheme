@@ -37,9 +37,10 @@
   </nav>
   <div class="wrapper">
     <aside class="sidebar sidebar-left sidebar--fixed" role="complementary">
+      <?php if( dynamic_sidebar('sidebar_id') ) : else : endif; ?>
       <nav class="side-nav-container">
         <ol class="table-of-contents">
-          <h3>Table of Contents</h3>
+           <h3>Table of Contents</h3>
             <li><a href="https://learnpythonthehardway.org/book/preface.html">Preface</a></li>
             <li><a href="https://learnpythonthehardway.org/book/intro.html">The Hard Way Is Easier</a></li>
             <li><a href="https://learnpythonthehardway.org/book/ex0.html">Ex0: The Setup</a></li>
@@ -105,7 +106,7 @@
           <li><a href="index.html#" class="waves-effect"><i class="icon-question-mark"></i> Help &amp; Support</a></li>
           <li><a href="index.html#" class="waves-effect"><i class="socicon-twitter"></i> Follow us on Twitter</a></li>
         </ul>
-      </nav>
+      </nav> -->
       <div class="colophon text-center">
         <div class="intro">
           <p class="bare-bottom">
@@ -121,7 +122,7 @@
       </div>
     </aside>
   
-  <!-- <ul class="contents_bar">
+   <ul class="contents_bar">
     <li><a href="#sidr-left" class="sidr-left-link">
       <div class="hamburger-menu">
         <div class="bar"></div>	
@@ -130,7 +131,7 @@
         Contents
       </span>
     </a></li>
-  </ul> -->
+  </ul>
 
 <div id="page" class="hfeed site">
   <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>

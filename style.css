@@ -242,9 +242,15 @@ body {
     line-height: 2
 }
 
-.table-of-contents li a {
-    padding-left: 54px
+.sidebar li {
+    margin: 0;
+    padding: 0;
+    position: relative
 }
+
+
+
+
 
 nav.side-nav-container a {
     padding: 13.5px 1.15rem;
@@ -285,11 +291,47 @@ ol li:before {
     top: -1px
 }
 
+.sidebar ul {
+  list-style-type: none; /* gets rid of the dot that comes with unordered lists */
+}
+
+.sidebar ul li {
+    position: relative
+}
+
+.sidebar ul li:before {
+    content: counter(step-counter);
+    margin: 0 10px 0 13.5px;
+    font-size: 1.3rem;
+    color: #5e6e99;
+    padding: 0;
+    border: 1px solid rgba(10, 46, 74, .2);
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 1.25em;
+    left: 0;
+    line-height: 2;
+}
+
+
+
 .table-of-contents li a {
     padding-left: 54px
 }
 
+.sidebar li a {
+    padding-left: 54px
+}
+
 ol li {
+    counter-increment: step-counter
+}
+
+.sidebar ul li {
     counter-increment: step-counter
 }
 

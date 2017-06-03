@@ -11,4 +11,17 @@ function my_theme_enqueue_styles() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+
+function anoddnumber_widget_init() {
+  register_sidebar( array(
+    'name' => 'anoddnumber_sidebar',
+    'id' => 'sidebar_id',
+    'before_widget' => '<nav class="side-nav-container">',
+    'after_widget' => '</nav>',
+    'before_title' => '<h3 id="mytitle">',
+    'after_title' => '</h3>',
+  ));
+}
+
+add_action( 'widgets_init', 'anoddnumber_widget_init');
 ?>
