@@ -97,13 +97,13 @@ a.sidr-left-link {
 .bar.animate:after {
   top: 0;
   transform: rotate(45deg);
-  transition: top var(--bar-speed) cubic-bezier(0.23, 1, 0.32, 1), transform var(--bar-speed) var(--bar-speed) cubic-bezier(0.23, 1, 0.32, 1);;
+  transition: top var(--bar-speed) cubic-bezier(0.23, 1, 0.32, 1), transform var(--bar-speed) var(--bar-speed) cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .bar.animate:before {
   bottom: 0;
   transform: rotate(-45deg);
-  transition: bottom var(--bar-speed) cubic-bezier(0.23, 1, 0.32, 1), transform var(--bar-speed) var(--bar-speed) cubic-bezier(0.23, 1, 0.32, 1);;
+  transition: bottom var(--bar-speed) cubic-bezier(0.23, 1, 0.32, 1), transform var(--bar-speed) var(--bar-speed) cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 
@@ -126,7 +126,7 @@ a.sidr-left-link {
 }
 .nav-main {
     background-color: #fff;
-    border-bottom: 1px solid rgba(10, 46, 74, .2)
+    border-bottom: 1px solid rgba(10, 46, 74, .2);
 }
 .row {
     margin-left: 0;
@@ -192,7 +192,7 @@ body {
     overflow: hidden;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column
+    flex-direction: column;
 }
 
 .sidebar {
@@ -213,7 +213,7 @@ body {
 .sidebar--fixed {
     position: fixed;
     overflow-y: scroll;
-    height: 100vh
+    height: 100vh;
 }
 
 .wrapper[class*=is-open] .sidebar {
@@ -222,57 +222,36 @@ body {
     transform: translate(270px, 0);
     transition: -webkit-transform .25s ease-out;
     transition: transform .25s ease-out;
-    transition: transform .25s ease-out, -webkit-transform .25s ease-out
-}
-
-.table-of-contents li {
-    margin: 0;
-    padding: 0;
-    position: relative
-}
-
-.table-of-contents li:before {
-    width: 27px;
-    height: 27px;
-    margin-left: 13.5px;
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    top: 1.25em;
-    line-height: 2
+    transition: transform .25s ease-out, -webkit-transform .25s ease-out;
 }
 
 .sidebar li {
     margin: 0;
     padding: 0;
-    position: relative
+    position: relative;
 }
-
-
-
-
 
 nav.side-nav-container a {
     padding: 13.5px 1.15rem;
     display: block;
-    color: #5e6e99
+    color: #5e6e99;
 }
 
 ul {
-    margin: 0 0 27px
+    margin: 0 0 27px;
 }
 ol,
 ul {
-    padding-left: 0
+    padding-left: 0;
 }
 ol li,
 ul li {
     margin-left: 27px;
     margin-bottom: 13.5px;
-    padding-left: 13.5px
+    padding-left: 13.5px;
 }
 ol li {
-    position: relative
+    position: relative;
 }
 
 ol li:before {
@@ -288,7 +267,7 @@ ol li:before {
     display: inline-block;
     text-align: center;
     position: absolute;
-    top: -1px
+    top: -1px;
 }
 
 .sidebar ul {
@@ -296,7 +275,7 @@ ol li:before {
 }
 
 .sidebar ul li {
-    position: relative
+    position: relative;
 }
 
 .sidebar ul li:before {
@@ -317,22 +296,12 @@ ol li:before {
     line-height: 2;
 }
 
-
-
-.table-of-contents li a {
-    padding-left: 54px
-}
-
 .sidebar li a {
-    padding-left: 54px
-}
-
-ol li {
-    counter-increment: step-counter
+    padding-left: 54px;
 }
 
 .sidebar ul li {
-    counter-increment: step-counter
+    counter-increment: step-counter;
 }
 
 .sidebar h3 {
@@ -340,5 +309,5 @@ ol li {
   margin: 0;
   background: #0A2E4A;
   color: #fff;
-  text-indent: 2.55rem
+  text-indent: 2.55rem;
 }
