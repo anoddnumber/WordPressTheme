@@ -181,6 +181,10 @@ body {
   background-color: #f1f1f1;
 }
 
+.sidebar a:hover {
+  background-color: #f1f1f1;
+}
+
 .wrapper {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -271,11 +275,12 @@ ol li:before {
 }
 
 .sidebar ul {
-  list-style-type: none; /* gets rid of the dot that comes with unordered lists */
+    list-style-type: none; /* gets rid of the dot that comes with unordered lists */
 }
 
 .sidebar ul li {
     position: relative;
+    counter-increment: step-counter;
 }
 
 .sidebar ul li:before {
@@ -298,10 +303,6 @@ ol li:before {
 
 .sidebar li a {
     padding-left: 54px;
-}
-
-.sidebar ul li {
-    counter-increment: step-counter;
 }
 
 .sidebar h3 {
