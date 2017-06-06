@@ -312,3 +312,7 @@ ol li:before {
   color: #fff;
   text-indent: 2.55rem;
 }
+
+#page {
+  width: 80%;
+}
