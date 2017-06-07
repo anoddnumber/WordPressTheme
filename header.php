@@ -10,6 +10,11 @@
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
+
+<!-- The following script and link tags required for a waves effect (like on the Contents button)-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/node-waves/0.7.5/waves.js"> </script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/node-waves/0.7.5/waves.css" />
+
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width">
@@ -27,7 +32,7 @@
   <nav class="navbar navbar-full nav-main" role="navigation">
     <div class="row between-xs center-xs middle-xs bare">
       <div class="col-xs-4 start-xs bare">
-        <a href="javscript:void(0);" class="no-underline nav-trigger waves-effect" id="toc">
+        <a href="javscript:void(0);" class="no-underline nav-trigger" id="toc">
           <div class="hamburger-menu">
             <div class="bar"></div>	
           </div>

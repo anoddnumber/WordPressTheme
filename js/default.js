@@ -8,5 +8,9 @@ $(document).ready(function() {
     } else {
       $(".wrapper").addClass("is-open");
     }
-  })
+  });
+  Waves.attach('.nav-trigger', ['waves-dark']);
+  console.log("waves attached");
+  Waves.init();
+  console.log("waves init");
 });
