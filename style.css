@@ -254,11 +254,11 @@ ul li {
     margin-bottom: 13.5px;
     padding-left: 13.5px;
 }
-ol li {
+.sidebar ol li {
     position: relative;
 }
 
-ol li:before {
+.sidebar ol li:before {
     content: counter(step-counter);
     margin: 0 10px 0 -40px;
     font-size: 1.3rem;
@@ -284,13 +284,12 @@ ol li:before {
 }
 
 .sidebar ul li:before {
-    content: counter(step-counter);
+  /*  content: counter(step-counter); */
+    content: counter(step-counter) ".";
     margin: 0 10px 0 13.5px;
     font-size: 1.3rem;
     color: #5e6e99;
     padding: 0;
-    border: 1px solid rgba(10, 46, 74, .2);
-    border-radius: 50%;
     width: 27px;
     height: 27px;
     display: inline-block;
@@ -308,7 +307,7 @@ ol li:before {
 .sidebar h3 {
   padding: 13.5px;
   margin: 0;
-  background: #0A2E4A;
+  background: #2d2d2d;
   color: #fff;
   text-indent: 2.55rem;
 }
