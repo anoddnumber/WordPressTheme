@@ -21,7 +21,7 @@
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js" ></script>
-  <script type="text/javascript" src="wp-content/themes/twentyfifteen-child/js/default.js"></script>
+  <script type="text/javascript" src="/wp-content/themes/twentyfifteen-child/js/default.js"></script>
   <!--[if lt IE 9]>
   <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
   <![endif]-->
@@ -32,7 +32,7 @@
   <nav class="navbar navbar-full nav-main" role="navigation">
     <div class="row between-xs center-xs middle-xs bare">
       <div class="col-xs-4 start-xs bare">
-        <a href="javscript:void(0);" class="no-underline nav-trigger" id="toc">
+        <a href="#" class="no-underline nav-trigger" onclick="return false;" id="toc">
           <div class="hamburger-menu">
             <div class="bar"></div>	
           </div>
