@@ -24,4 +24,5 @@ function anoddnumber_widget_init() {
 }
 
 add_action( 'widgets_init', 'anoddnumber_widget_init');
+remove_filter('the_content', 'wptexturize');
 ?>
