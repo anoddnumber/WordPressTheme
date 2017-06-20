@@ -322,10 +322,6 @@ ul li {
   width: 80%;
 }
 
-p {
-  hyphens: none;
-}
-
 ol ol {
   list-style: lower-alpha;
   columns: 4;
@@ -333,6 +329,7 @@ ol ol {
 
 .entry-content {
   font-size: 16.5px;
+  hyphens: none;
 }
 
 .site {
