@@ -259,8 +259,6 @@ ul {
 ol li,
 ul li {
     margin-left: 27px;
-    margin-bottom: 13.5px;
-    padding-left: 13.5px;
 }
 .sidebar ol li {
     position: relative;
@@ -326,6 +324,13 @@ ul li {
 
 p {
   hyphens: none;
+}
+
+ol ol {
+  list-style: lower-alpha;
+}
+
+.entry-content {
   font-size: 16.5px;
 }
 
