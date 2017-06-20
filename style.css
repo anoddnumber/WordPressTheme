@@ -323,3 +323,11 @@ ul li {
 #page {
   width: 80%;
 }
+
+p {
+  hyphens: none;
+}
+
+.site {
+  max-width: none;
+}
