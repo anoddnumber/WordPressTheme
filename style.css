@@ -328,6 +328,7 @@ p {
 
 ol ol {
   list-style: lower-alpha;
+  columns: 4;
 }
 
 .entry-content {
