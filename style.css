@@ -332,6 +332,10 @@ ol ol {
   hyphens: none;
 }
 
+.entry-content > ol > li {
+  margin-bottom: 15px;
+}
+
 .site {
   max-width: none;
 }
