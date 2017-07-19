@@ -332,6 +332,17 @@ ol ol {
   hyphens: none;
 }
 
+.entry-content :not(.page-links) a {
+  color: #2fe879;
+  border-bottom: 1px solid #2fe879;
+}
+
+.entry-content a:hover,
+.entry-content a:focus {
+  color: #9df7c1;
+	border-bottom: 0;
+}
+
 .entry-content > ol > li {
   margin-bottom: 15px;
 }
