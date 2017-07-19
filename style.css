@@ -170,7 +170,7 @@ a.sidr-left-link {
 body {
     font-size: 18px;
     line-height: 27px;
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Consolas", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: left;
@@ -324,7 +324,7 @@ ul li {
 
 ol ol {
   list-style: lower-alpha;
-  column-width: 10em;
+  column-width: 15em;
 }
 
 .entry-content {
