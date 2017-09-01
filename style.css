@@ -327,6 +327,15 @@ ol ol {
   column-width: 15em;
 }
 
+ol.solutions ol {
+  list-style: lower-alpha;
+  column-width: inherit;
+}
+
+ol.solutions ol li {
+  margin-top: 5px;
+}
+
 .entry-content {
   font-size: 16.5px;
   hyphens: none;
