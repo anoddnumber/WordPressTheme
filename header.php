@@ -22,9 +22,8 @@
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js" ></script>
   <script type="text/javascript" src="/wp-content/themes/twentyfifteen-child/js/default.js"></script>
-  <!--[if lt IE 9]>
-  <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
-  <![endif]-->
+  <!-- For pretty printing code on the website: https://github.com/google/code-prettify-->
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
   <?php wp_head(); ?>
 </head>
 
