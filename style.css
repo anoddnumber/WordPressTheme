@@ -225,7 +225,7 @@ body {
 .sidebar--fixed {
     position: fixed;
     overflow-y: scroll;
-    height: 100vh;
+    height: 85vh;
 }
 
 .wrapper[class*=is-open] .sidebar {
